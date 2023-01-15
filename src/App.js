@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Showhello from './components/showhello';
+import ComponenteA from './components/componenteA';
+import { REGISTRO } from './models/registro.contacto';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       
-      <Showhello></Showhello>
+        <ComponenteA contacto={REGISTRO} />
       </header>
     </div>
   );
